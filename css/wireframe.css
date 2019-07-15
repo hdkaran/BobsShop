@@ -1,0 +1,372 @@
+/* Make HTML and body content viewable, layout to fill window */
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Graduate|Oregano');
+html
+{
+	background-image: url("../img/checker.gif");
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Fontdiner Swanky', cursive;
+}
+
+.reciept
+{
+  background:"white";
+  text-align: "center";
+  border:none;
+  height:100%;
+}
+.table2
+{
+  width:100%;
+  
+}
+address
+{
+  text-align: "right";
+}
+body
+{
+  min-width:600px;
+  max-width:1200px;
+  font-size:20px;																																													
+  font-family: 'Oregano', cursive;
+  margin:0 auto;
+  box-shadow:-3px 3px 4px red,3px 3px 4px red;
+  background-image: url("../img/starburst.gif");
+  background-repeat: repeat;
+  border: 0px;
+  padding:0px;
+  background-attachment:fixed;  
+  height:100%;
+}
+
+/* Give all semantic body elements uniform layout style */
+
+/* Give each semantic body element a different color */
+header
+{
+	font-family: 'Fontdiner Swanky', cursive;
+	max-width:1200px;
+	min-width:20px;
+  background-color: none;
+  position: inherit;  
+  
+}
+  a:visited,a:link{
+	  color:rgba(20,20,132,1);
+	  
+  }
+  
+  a:hover,a:active{
+    background:rgba(255,255,255,0.8);
+    color:black;
+  }
+  #btt
+  {
+	  opacity:0.5;
+	  bottom:0px;
+	  cursor:pointer;
+	  background:black;
+	  right:0px;
+	  color:yellow;
+	  font-family:"Graduate",cursive;
+	  font-size:30px;
+	  position:fixed;
+  }
+  .heading
+  {
+	  padding:0;
+	  margin-bottom:2px; 
+	  
+	  color:black;
+	  border:2px solid;
+	  font-size:35px;
+	  
+	  vertical-align:top;
+	  padding:0 auto;
+	  box-shadow: 10px 10px 5px #888888;
+	  display:inline-block;
+  }
+  #btt:hover
+  {
+	  opacity:1;
+  }
+header strong{
+  font-size: 25px;
+  color: white;
+}
+header div{
+  word-wrap: break-word;
+ margin-left:25px;
+  vertical-align: center;
+  font-size: larger;
+  display: inline-block;
+margin-right: 0px;
+  font-size:20px;
+  text-align: center;
+  padding: 0;
+  
+}
+header img{
+  vertical-align: center;
+  
+  margin-bottom:10px;
+  max-width: 250px;
+  min-width:100px;
+  min-height:20px;
+  max-height: 80px;
+  
+}
+
+nav
+{
+  font-family: 'Graduate', cursive;
+
+  border-style:dashed;
+  border-color: white;
+  border-width: 3px;
+  min-width:20px;
+  background-color: rgba(40, 202, 220, 0.4);
+  padding:0px;/* all learnt from w3schools*/
+
+  font-size: 30px;
+  text-align: center;
+}
+
+.nav1{
+  height:100%;
+  /*http://css.maxdesign.com.au/listutorial/horizontal04.htm*/
+  
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  display:inline;
+  
+}
+
+.nav2{
+	background:rgba(255,255,255, 0.75);
+    padding:0px;
+  margin:0px;
+  border-right: solid 1px;
+  display: inline-block;
+}
+.nav2 li:last-child{
+  border:none;
+}
+
+.nav1 li a{
+  border:none;
+      /* w3schools.com */
+  font-family:"Graduate", cursive;
+  display:inline-block;
+  width:100%;
+  text-transform: capitalize;
+  
+  text-align: center;
+    text-decoration:none;
+  
+}
+
+
+main
+{
+    background: rgba(255, 255, 255, 0.42);
+    border: black 3px dashed;
+    display: inline-block;
+    width: 75%;
+    height: 100%;
+    margin: 5px;
+    min-width: 20%;
+
+}
+.banner{
+	text-align:center;
+	border:dashed;
+	border-color:black;
+	color:black;
+}
+nav.sideNav h2{
+	word-wrap: break-word;
+}
+.sideNav
+{
+min-width:20px;	
+  
+  width: 20%;
+  height:100%;
+  color:black;
+  font-size:18px;
+  text-decoration: none;
+  vertical-align: center;
+  background-color:rgba(40, 202, 220, 0.4);
+  border-right:solid 1px;
+  float: left;
+  margin: 2px;
+  padding:0;
+  display:inline-block;
+}
+
+article
+{
+	text-align:center;
+	width: 100%;
+  margin: 0 auto;
+  background-color: hsl(270,100%,97%);
+  
+}
+
+a{
+  text-decoration: none; /*from w3schools*/
+}
+
+li a{    /* w3schools.com */
+  display:block;
+  width:100%;
+  text-transform: capitalize;
+  min-height: 30px;
+  max-height:60px;
+  text-align: center;
+  border: solid 1px;
+  font-family: "Oregano", cursive;
+  text-decoration:none;
+    }
+  
+  ul{        
+    
+    /*w3schools.com taught me */
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    width:100%;
+  }
+  
+  .
+  
+  section{
+	  vertical-align:top;
+    margin:5px auto;
+    width: 80%;
+    
+    color:white;
+    border:dashed;
+	border-color:white;
+	display:inline-block;
+    background-color: rgba(0, 0, 0, 1);
+	text-align: center;
+  }
+
+  
+  .mainText{
+    border:solid;
+    text-align: center; 
+    word-wrap: break-word;
+	color:black;
+   
+  }
+  
+  .social {
+	  text-align:center;
+    border: none;
+	overflow:hidden;
+    width:140px;
+    
+	
+	margin-right:0px; 
+	
+	
+	display:inline-block;
+}
+
+footer{
+	border-left:15%;
+	width:100%;
+	text-align:center;
+	background-color:pink;
+	font-size:12px;
+	margin-top:5px;
+}
+
+.products{
+	margin:0 auto;
+	width:40%;
+	display:inline-block;
+	background:grey;
+	color:white;
+	text-align:center;
+	
+	border:dashed 1px;
+	
+	
+}
+.menuHeadings{
+	text-align:center;
+	font-size:20px;}
+
+.menuImages{
+	width:25%;
+	display:inline-block;
+	margin:5px;
+}
+.bolder{
+	font-size:40px;
+	font-style:bold;
+	color: black;
+	background-color: white;
+}
+
+.writings
+{
+	border:dashed 1px pink;
+	color:black;
+}
+.productContainer{
+	display:inline-block;
+	width:100%;
+	clear: both;
+	text-align:center;
+}
+
+
+.prod
+{
+	border:black 2px dashed;
+	display: inline-block;
+clear: both;
+max-width: 400px;
+	text-align:center;
+	
+}
+.prodDesc
+{
+  display: inline-block;
+  margin:5px;
+	margin-right: 2px;
+	margin-left: 10px;
+	padding:0;
+	width:154px;
+	height:450px;
+	
+	float: left;
+}
+
+.prodForm{
+  
+  min-width: 400px;
+  max-width: 600px;
+  height:435px;
+	text-align:center;
+	font-family:"Open Sans";
+	
+}
+.mainImage{
+	width:70%;
+	margin:0 auto;
+	display:block;
+	
+	
+}
+textarea{
+	white:pre;
+}

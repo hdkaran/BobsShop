@@ -1,0 +1,26 @@
+.reciept
+{
+  background:"white";
+  text-align: "center";
+  border:none;
+  height:100%;
+}
+.table2
+{
+  width:100%;
+  
+}
+.heading
+  {
+	  padding:0;
+	  margin-bottom:2px; 
+	  
+	  color:black;
+	  border:2px solid;
+	  font-size:35px;
+	  
+	  vertical-align:top;
+	  padding:0 auto;
+	  box-shadow: 10px 10px 5px #888888;
+	  display:inline-block;
+  }
